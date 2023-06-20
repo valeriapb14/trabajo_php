@@ -1,0 +1,126 @@
+/* Estilos CSS */
+
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../imagenes/edificio.jpg');
+  background-size: cover;
+}
+
+.login-container {
+  max-width: 800px;
+  padding: 80px;
+  background-color: #111;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-heading {
+  text-align: left;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 60px;
+  font-size: 80px;
+}
+
+.form-group {
+  margin-bottom: 60px;
+}
+
+label {
+  display: block;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 35px;
+}
+
+input, select {
+  width: 95%;
+  padding: 20px;
+  font-size: 36px;
+  border-radius: 10px;
+  border: 4px solid #3611da;
+  color: #fff;
+  background-color: #3f3b3b;
+}
+
+.button-group {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-group button {
+  flex-grow: 1;
+  padding: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #3611da;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.button-group button:hover {
+  background-color: #1c18d8;
+}
+
+.button-group button:last-child {
+  margin-right: 0;
+}
+
+.button-save {
+  display: block;
+  width: 25%;
+  padding: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #3611da;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button.login-button:hover,
+button.edit-button:hover,
+button.update-button:hover,
+button.delete-button:hover,
+button.save-button:hover {
+  background-color: #3611da;
+}
+
+.login-description {
+  text-align: left;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+.login-description span {
+  text-decoration: underline;
+}
+.button-group button:active {
+  background-color: #1900f7; /* Cambia el color de fondo al hacer clic */
+  color: #fff; /* Cambia el color del texto al hacer clic */
+}
+
+.button-group button:focus {
+  outline: none; /* Quita el contorno al enfocar el botón */
+}
+span.name-input{
+  display: block;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 35px;
+}
+  
+  
